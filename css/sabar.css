@@ -1,0 +1,60 @@
+.sabar-details{
+    position: relative;
+    left: 280px;
+}
+.sabar-header img{
+    width: 100%;
+    border: wheat 20px solid;
+}
+.sabar-header h2{
+    text-align: center;
+     font-size: 3rem;
+     color: slategrey;
+ }
+ .sabar-header p{
+     margin-left: 20%;
+ }
+ hr{
+     border: dotted 6px dimgray;
+     border-top: none;
+     width: 20%;
+ }
+
+.sabar-details p{
+    text-align: left;
+    padding: 20px;
+    line-height: 2;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.25rem;
+}
+.writer-Tarekuzzaman-Tarek{
+    background-color: thistle;
+    position: relative;
+    left: 280px;
+    
+    
+}
+.writer-Tarekuzzaman-Tarek p{
+    margin-top: 15px;
+}
+.writer-Tarekuzzaman-Tarek a{
+    text-decoration: none;
+    color:tomato;
+    font-size: 18px;
+}
+.writer-Tarekuzzaman-Tarek img{
+    position: relative;
+    margin-left: 90px;
+}
+
+
+@media(max-width:900px){
+    .sabar-details{
+     position: static;
+       
+    }
+    .writer-Tarekuzzaman-Tarek{
+        margin-bottom: 0;
+        position: static;  
+    }
+}

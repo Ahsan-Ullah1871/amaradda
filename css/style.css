@@ -1,0 +1,346 @@
+body{
+    background-image:linear-gradient( #FC5E55,#FA4083);
+    background-repeat: no-repeat;
+    font-family: 'Lobster Two', cursive,'Prata', serif,'Baloo Da 2', cursive,'Hind Siliguri', sans-serif;
+
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Prata', serif;
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+ */
+}
+/* header */
+
+.navbar{
+    margin-bottom: 50px;
+    padding: 20px 0px;
+}
+.nav-item{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 80px;
+    border: 3px solid rgba(20, 20, 20, 0.705);
+    border-radius: 200px;
+    padding: 5px;
+}
+.nav-item:hover{
+    background-color: tomato;
+    transition-duration: 1s;
+}
+/* main */
+main{
+    margin-bottom: 40px;
+}
+.addamain{
+    background-color: wheat;
+}
+.addamain h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.addamain p{
+    font-family: 'Baloo Da 2', cursive;
+    padding: 20px 40px 20px 40px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: px;
+
+}
+.addaphoto{
+    border: wheat 5px solid;
+    height: 300px;
+    width: 310px;
+    margin-left: 35px;
+}
+.button a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.button{
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    margin-left: 60%;
+    border: orangered 4px solid;
+    padding: 20px;
+    border-radius: 300px 400px 50px 300px;
+    width: 20%;
+}
+.button:hover{
+    background-color: salmon;
+    transition-duration: 1s;
+}
+
+/* curosel */
+.nashihah{
+    background-color: wheat;
+
+}
+/* kothon */
+.kothon{
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    padding: 20px 40px 20px 40px;
+    line-height: 30px;
+    background-color: silver;
+}
+.kothon p{
+    margin-bottom: 30px;
+}
+.kothon a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    border: #FA4083 solid 2px;
+    border-radius: 200px;
+    padding: 10px;
+    margin-left: 70%;
+
+}
+.kothon a:hover{
+     background-color: crimson;
+     transition-duration: 1s;
+
+}
+.kothon-photo{
+    height: 335px;
+    border: 4px solid silver;
+    margin-left: 20px;
+}
+/* diary */
+.rojnamcha{
+    position: relative;
+    margin-top: 50px;
+    background-color:#eeb3c4 ;
+    border: 5px solid  wheat;
+    border-radius: 100px 100px 0px 0px;
+    width: 70%;
+    margin-left: 18%;
+   
+}
+.rojnamcha a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(32, 32, 30);
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.diary1{
+    background-image: url(images/book6-900x1022.jpg);
+    background-size: cover;
+    background-position:center;
+    padding-left: 85px;
+    line-height: 30px;
+    margin-left: 90px;
+    font-family: 'Baloo Da 2', cursive;
+}
+.diary1 a{
+    color: black;
+    text-decoration: none;
+    border: #FA4083 solid 2px;
+    border-radius: 60px 400px 400px 60px;
+    padding: 10px;
+    margin-left: 270px;
+
+}
+.diary1 a:hover{
+     background-color: crimson;
+     transition-duration: 1s;
+}
+.diary2{
+    background-image: url(images/book6-900x1022.jpg);
+    background-size: cover;
+    background-position:center;
+    padding-left: 90px;
+    line-height: 32px;
+    margin-left: 70px;
+    font-family: 'Baloo Da 2', cursive;
+}
+.diary2 a{
+    color: black;
+    text-decoration: none;
+    border: #FA4083 solid 2px;
+    border-radius: 60px 400px 400px 60px;
+    padding: 10px;
+    margin-left: 250px;
+
+}
+.diary2 a:hover{
+     background-color: crimson;
+     transition-duration: 1s;
+}
+/* memorable */
+.memorable{
+    position: relative;
+    margin-top: 50px;
+    background-color:#eeb3c4 ;
+    border: 5px solid  wheat;
+    border-radius: 100px 100px 0px 0px;
+    width: 70%;
+    margin-left: 15%;
+
+
+
+}
+.memorable a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(32, 32, 30);
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.card a{
+    color: black;
+    text-decoration: none;
+    border: #FA4083 solid 2px;
+    border-radius: 60px 400px 400px 60px;
+    padding: 10px;
+    margin-left: 200px;
+}
+.card a:hover{
+    background-color: rgb(158, 57, 77);
+    transition-duration: 1s;
+}
+/* footer */
+.footer{
+    background-color: rgb(100, 100, 100);
+    margin-top: 20px;
+}
+.phone{
+    margin-left: 20px;
+}
+.email{
+    margin-left: 20px;
+    
+}
+.email a{
+    text-decoration: none;
+    color: floralwhite;
+    border: rgb(127, 146, 151) solid 3px;
+    padding: 4px;
+}
+.email a:hover{
+     background-color: indianred;
+}
+.place{
+    margin-left: 20px;
+}
+.connection{
+    margin-left: 150px;
+}
+.facebook {
+    margin-top: 20px;
+}
+.facebook a{
+    margin-right: 20px;
+}
+/* overlay */
+.image{
+    position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 90% ;
+	opacity: 0;
+	transition: .5s ease;
+    background-color: rgba(67, 68, 68, 0.7);
+    margin-left: 35px;
+    
+}
+.overlay-mad{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+    background-color: rgba(67, 68, 68, 0.7);
+    margin-left: 20px;
+    
+}
+.detail{
+	color: #fff;
+	font-size: 15px;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Prata', serif;
+   
+}
+.madrasah{
+    color: #fff;
+	font-size: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Prata', serif;
+}
+ 
+.image:hover .overlay{
+	opacity: 1;
+}
+
+/* little size */
+@media(max-width:900px){
+   .addamain{
+       margin-bottom: 40px;
+   }
+   .button{
+       width: 30%;
+   }
+   .overlay{
+      display: none;
+   }
+   .kothon a{
+       margin-left: 35%;
+   }
+   .kothon-photo{
+       margin-left: 0px;
+       margin-top: 20px;
+   }
+   .diary1,.diary2{
+       margin-left: 0px;
+       margin-bottom: 20px;
+   }
+   .diary1 a,.diary2 a{
+    margin-left: auto;
+    margin-right:auto ;
+}
+   .memorable {
+       width: 100%;
+       margin-left: 0;
+    }
+    .card a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .connection{
+        margin-left: 0px;
+    }
+
+
+    .foot{
+        margin-bottom: 20px;
+        padding-left: 30%;
+    }
+
+
+}

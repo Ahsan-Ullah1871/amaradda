@@ -1,0 +1,133 @@
+/* advice */
+.advice{
+    border: dotted 7px rgb(218, 160, 53);
+    border-radius: 500px;
+    background-color: #e7dec8;
+    padding: 10px;
+    position: relative;
+}
+.advice h4{
+    margin-left: 45%;
+}
+
+.advice-image1{
+   background-image: url(images/advice1.png);
+   background-position: top;
+   background-size: 1000px ;
+   position: relative;
+   left: 30px;
+
+}
+.advice-image1 p{
+    line-height:30px ;
+    margin-top: 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.2rem;
+
+}
+.advice-image2{
+    background-image: url(images/advice1.png);
+    background-position: top;
+    background-size: 1000px ;
+    position: relative;
+    left:160px;
+ }
+ .advice-image2 p{
+    line-height:30px ;
+    margin-top: 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.2rem;
+
+}
+/* রচনা-প্রবন্ধ */
+.essay-header{
+    background-color: teal;
+    border: solid 3px burlywood;
+    border-radius: 500px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    text-align: center;
+}
+.essay-header h2{
+    font-size: 3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+}
+    
+.shabar a,.itihas a,.taohid a,.speaker a  {
+    text-decoration: none;
+    color: salmon;
+}
+.shabar{
+   position: relative;
+   margin-left: 40px;
+  padding: 0; 
+  border: solid 5px rosybrown;
+  text-align: center;
+
+}
+.itihas{
+   position: relative; 
+   margin-left: 120px;
+   padding: 0; 
+   border: solid 5px rosybrown;
+   text-align: center;
+}
+.taohid{
+    position: relative;
+    margin-left: 40px;
+   padding: 0; 
+   border: solid 5px rosybrown;
+   text-align: center; 
+}
+.speaker{
+    position: relative; 
+    margin-left: 120px;
+    padding: 0; 
+    border: solid 5px rosybrown;
+    text-align: center;
+}
+
+
+@media(max-width:900px) {
+    .advice h4{
+        margin-left: 0%;
+        text-align: center;
+        color: tomato;
+    }
+
+    .advice-image1{
+        left: 0px;
+        margin:0 auto;
+     
+     }
+     .advice-image2{
+
+        left:0px;
+     }
+     .shabar{
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+     
+     }
+     .itihas{ 
+        margin-left: 0px;
+        margin-bottom: 20px;
+    
+     }
+     .taohid{
+         margin-left: 0;
+         margin-bottom: 20px;
+     }
+     .speaker{
+         margin-left: 0;
+         margin-bottom: 20px;
+     }
+     .sabar-image,.itihas-image,.taohid-image,.speaker-image{
+         width: 340px;
+        
+     }
+
+}

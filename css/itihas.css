@@ -1,0 +1,60 @@
+.itihas-details{
+    position: relative;
+    left: 280px;
+}
+.itihas-header img{
+    width: 100%;
+    border: wheat 20px solid;
+}
+.itihas-header h2{
+    text-align: center;
+     font-size: 3rem;
+     color: slategrey;
+ }
+ .itihas-header p{
+     margin-left: 20%;
+ }
+ hr{
+     border: dotted 6px dimgray;
+     border-top: none;
+     width: 20%;
+ }
+
+.itihas-details p{
+    text-align: left;
+    padding: 20px;
+    line-height: 2;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.25rem;
+}
+.writer-imran-raihan{
+    background-color: thistle;
+    position: relative;
+    left: 280px;
+    
+    
+}
+.writer-imran-raihan p{
+    margin-top: 15px;
+}
+.writer-imran-raihan a{
+    text-decoration: none;
+    color:tomato;
+    font-size: 18px;
+}
+.writer-imran-raihan img{
+    position: relative;
+    margin-left: 90px;
+}
+
+
+@media(max-width:900px){
+    .itihas-details{
+     position: static;
+       
+    }
+    .writer-imran-raihan{
+        margin-bottom: 0;
+        position: static;  
+    }
+}

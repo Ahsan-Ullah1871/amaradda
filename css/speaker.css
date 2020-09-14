@@ -1,0 +1,60 @@
+.speker-details{
+    position: relative;
+    left: 280px;
+}
+.speaker-header img{
+    width: 100%;
+    border: wheat 20px solid;
+}
+.speaker-header h2{
+    text-align: center;
+     font-size: 3rem;
+     color: slategrey;
+ }
+ .speaker-header p{
+     margin-left: 30%;
+ }
+ hr{
+     border: dotted 6px dimgray;
+     border-top: none;
+     width: 20%;
+ }
+
+.speker-details p{
+    text-align: left;
+    padding: 20px;
+    line-height: 2;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.25rem;
+}
+.writer-Kaisar-Ahmad{
+    background-color: thistle;
+    position: relative;
+    left: 280px;
+    
+    
+}
+.writer-Kaisar-Ahmad p{
+    margin-top: 15px;
+}
+.writer-Kaisar-Ahmad a{
+    text-decoration: none;
+    color:tomato;
+    font-size: 18px;
+}
+.writer-Kaisar-Ahmad img{
+    position: relative;
+    margin-left: 90px;
+}
+
+
+@media(max-width:900px){
+    .speker-details{
+        position: static;
+       
+    }
+    .writer-Kaisar-Ahmad{
+        margin-bottom: 0;
+        position: static;  
+    }
+}
