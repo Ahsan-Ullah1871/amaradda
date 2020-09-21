@@ -1,0 +1,48 @@
+.life-head{
+    position: relative;
+    left: 30%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    border: orangered 4px solid;
+    padding: 20px 40px;
+    border-radius:  300px;
+    text-align: center;
+}
+
+hr{
+    border: dotted 9px gray;
+    border-top: none;
+    width: 20%;
+}
+.life{
+    position: relative;
+    left: 30%;
+    text-align: left;
+}
+.life p {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+/* little size */
+@media(max-width:900px){
+    .life-head{
+        position: static;
+       
+    
+    }
+    .life-head {
+        position: static;
+
+    }
+    .life{
+        position: static;
+       
+    }
+    .life p {
+        padding: 0px;
+        font-size: 20px;
+        font-family: 'Baloo Da 2', cursive;
+    }
+}

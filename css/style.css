@@ -23,12 +23,14 @@ font-family: 'Hind Siliguri', sans-serif;
     border: 3px solid rgba(20, 20, 20, 0.705);
     border-radius: 200px;
     padding: 5px;
+    text-align: center;
 }
 .nav-item:hover{
     background-color: tomato;
     transition-duration: 1s;
 }
 /* main */
+
 main{
     margin-bottom: 40px;
 }
@@ -297,9 +299,13 @@ main{
 .image:hover .overlay{
 	opacity: 1;
 }
+ 
+
+
 
 /* little size */
 @media(max-width:900px){
+
    .addamain{
        margin-bottom: 40px;
    }
